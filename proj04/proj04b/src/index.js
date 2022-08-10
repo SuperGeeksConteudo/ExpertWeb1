@@ -11,6 +11,8 @@ const servidor = express()
 // definindo o funcionamento do CORS
 servidor.use(cors()) 
 
+// definindo o express para receber e enviar JSON
+servidor.use(express.json())
 
 // criando rota "/"
 servidor.get("/", function(requisicao, resposta) { 

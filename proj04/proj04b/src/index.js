@@ -16,7 +16,7 @@ servidor.use(express.json())
 
 // criando rota "/"
 servidor.get("/", function(requisicao, resposta) { 
-    resposta.send("Olá, bem vindo a API!") 
+    resposta.json({ mensagem: "Olá Mundo!" }) 
 })
 
 // criando rota "/api"

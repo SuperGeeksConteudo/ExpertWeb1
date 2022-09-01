@@ -5,8 +5,8 @@ import styled from "styled-components"
 // criando modelo Campo
 const ModeloConteudo = styled.div` 
     display: flex; 
-    flex-direction: 
-    column; width: 200px; 
+    flex-direction: column; 
+    width: 200px; 
 `
 
 const ConteudoCapa = styled.img` 
